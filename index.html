@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biruk Yared | Architecture Portfolio</title>
+  <meta name="description" content="Architecture portfolio of Biruk Yared, Fifth-Year Architecture Student — showcasing residential, educational, hospitality, and civic design projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════ NAV ═══════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">BY<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════ HERO ══════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        5th Year Architecture Student
+      </div>
+      <h1 class="hero-title">
+        <span class="line-reveal">Biruk</span>
+        <span class="line-reveal delay-1">Yared</span>
+      </h1>
+      <p class="hero-sub">
+        Designing spaces that breathe — where form, function,<br class="br-d"/>
+        and human experience converge.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary" id="hero-view-work">Selected Projects</a>
+        <a href="#contact" class="btn-ghost" id="hero-get-in-touch">Contact Info</a>
+      </div>
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+
+    <div class="hero-image-panel">
+      <div class="img-frame">
+        <img src="pp.png" alt="Biruk Yared Profile" id="hero-photo" />
+        <div class="img-accent"></div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card" id="stat-projects">
+          <span class="stat-num">5</span>
+          <span class="stat-label">Featured Projects</span>
+        </div>
+        <div class="stat-card" id="stat-years">
+          <span class="stat-num">5th</span>
+          <span class="stat-label">Year Student</span>
+        </div>
+        <div class="stat-card" id="stat-graphic">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Yrs Graphic Exp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════ ABOUT ════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">WHO I AM</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Crafting<br /><em>Meaningful</em><br />Spaces</h2>
+          <div class="about-divider"></div>
+        </div>
+        <div class="about-right">
+          <p class="about-text">
+            I am a fifth year architecture student passionate about human centered and problem solving design. I believe architecture should improve people’s everyday experiences by responding to real human needs and spatial challenges. My work is inspired by urban life, public interaction, and the relationship between people and space, which strongly influences my approach to circulation and form development.
+          </p>
+          <p class="about-text">
+            Alongside architecture, I have five years of experience in graphic design, working with companies including Weyera and creating T-shirt graphics for religious celebrations and public events in Addis Ababa. This experience has strengthened my creativity and visual communication skills.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Human Centered Design</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Urban Life</span>
+            <span class="tag">Circulation & Form</span>
+            <span class="tag">Graphic Design</span>
+            <span class="tag">Visual Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ PROJECTS ═══════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">SELECTED WORK</div>
+      <h2 class="section-title">Projects</h2>
+
+      <!-- ─── Project 1: Residential Apartment ─── -->
+      <div class="project-block" id="project-apartment">
+        <div class="project-header">
+          <div class="project-meta">
+            <span class="project-num">01</span>
+            <span class="project-cat">Residential Apartment</span>
+          </div>
+          <h3 class="project-title">Apartment Design<br /><em>"Friendly Surveillance"</em></h3>
+          <p class="project-desc">
+            Inspired by the facade character of 1960s Addis Ababa, this project reimagines the traditional kebele spirit within a modern apartment building. Based on the concept of Friendly Surveillance, it encourages social interaction through shared communal spaces and floor-level gardens, allowing neighbors to connect, cultivate, and support one another while fostering a strong sense of community.
+          </p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-hero">
+          <div class="gallery-main" id="apt-render">
+            <img src="1/rend.png" alt="Apartment Render" class="gallery-img hero-gallery-img" />
+            <div class="gallery-caption">3D Render — Evening Perspective</div>
+          </div>
+          <div class="gallery-side">
+            <div class="gallery-thumb" id="apt-site">
+              <img src="1/site.png" alt="Site Plan" class="gallery-img" />
+              <div class="gallery-caption">Aerial Site View</div>
+            </div>
+            <div class="gallery-thumb" id="apt-concept">
+              <img src="1/CONCEPT.png" alt="Concept Board" class="gallery-img" />
+              <div class="gallery-caption">Concept & Form Evolution</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floor-plans-section">
+          <h4 class="fp-title">Floor Plans</h4>
+          <div class="floor-plans-grid">
+            <div class="fp-card" id="fp-g1">
+              <div class="fp-img-wrap">
+                <img src="1/G+1.png" alt="G+1 Floor Plan" class="gallery-img" />
+              </div>
+              <div class="fp-label">G+1 — Residential Floor</div>
+            </div>
+            <div class="fp-card" id="fp-g5">
+              <div class="fp-img-wrap">
+                <img src="1/g+5 new.png" alt="G+5 Floor Plan" class="gallery-img" />
+              </div>
+              <div class="fp-label">G+5 — Amenity Floor</div>
+            </div>
+            <div class="fp-card" id="fp-g8">
+              <div class="fp-img-wrap">
+                <img src="1/g+8.png" alt="G+8 Floor Plan" class="gallery-img" />
+              </div>
+              <div class="fp-label">G+8 — Top Floor</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="facade-section">
+          <div class="facade-img-wrap" id="apt-facade">
+            <img src="1/Copilot_20260622_083252.png" alt="Facade Detail Panel" class="gallery-img" />
+          </div>
+          <div class="facade-info">
+            <h4>Facade Detail Panel</h4>
+            <p>The facade features a <strong>Woody Structural Frame</strong> combined with textured decorative glass panels, fastened with precision metal corner brackets. The composition balances warmth and modernity — using natural timber tones against reflective glazing for a tactile, vibrant exterior.</p>
+            <ul class="facade-specs">
+              <li><strong>Material:</strong> Timber + Textured Glass</li>
+              <li><strong>Connection:</strong> Metal Corner Bracket D1 (40×40×236mm)</li>
+              <li><strong>Finish:</strong> Fastened with structural screws</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 2: School Design ─── -->
+      <div class="project-block" id="project-highschool">
+        <div class="project-header">
+          <div class="project-meta">
+            <span class="project-num">02</span>
+            <span class="project-cat">School Design</span>
+          </div>
+          <h3 class="project-title">School Design<br /><em>"Breaking The Paradox"</em></h3>
+          <p class="project-desc">
+            Inspired by the idea of learning through comfort, this high school design transforms the classroom into a home-like environment. Elevated reading and interaction spaces foster collaboration, creativity, and a stronger emotional connection between students and their learning environment.
+          </p>
+          <div class="project-collab">
+            <span class="collab-label">Collaborators:</span>
+            <span class="collab-name">Bisrateab Akadu</span>
+            <span class="collab-sep">·</span>
+            <span class="collab-name">Biruk Yared</span>
+            <span class="collab-sep">·</span>
+            <span class="collab-name">Sitra Ahmed</span>
+          </div>
+        </div>
+
+        <div class="full-sheet-wrap" id="highschool-sheet">
+          <img src="2.jpg" alt="School Design Sheet" class="full-sheet-img" />
+          <div class="sheet-overlay">
+            <span>Click to enlarge sheet</span>
+          </div>
+        </div>
+
+        <div class="project-specs-grid">
+          <div class="spec-card">
+            <div class="spec-icon">📍</div>
+            <div class="spec-title">Location</div>
+            <div class="spec-val">Ayer Tena, Ethiopia</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-icon">📐</div>
+            <div class="spec-title">Site Area</div>
+            <div class="spec-val">70,479 m²</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-icon">🏫</div>
+            <div class="spec-title">Program</div>
+            <div class="spec-val">Comprehensive High School</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-icon">💡</div>
+            <div class="spec-title">Concept</div>
+            <div class="spec-val">Breaking The Paradox</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 3: Convention Center Design ─── -->
+      <div class="project-block" id="project-convention">
+        <div class="project-header">
+          <div class="project-meta">
+            <span class="project-num">03</span>
+            <span class="project-cat">Convention Center Design</span>
+          </div>
+          <h3 class="project-title">Convention Center<br /><em>"Pathways of Possibility"</em></h3>
+          <p class="project-desc">
+            In this design, space is not about fixed routes or destinations; it's about choices. Like in Merkato, once you enter, you're drawn in not because you're forced, but because you're curious. The architecture is meant to immerse you, offering multiple paths and experiences, making it hard to leave. You wander, not to get lost, but to enjoy discovering.
+          </p>
+        </div>
+
+        <div class="hotel-pdf-cta">
+          <div class="pdf-icon">📄</div>
+          <div class="pdf-text">
+            <strong>Convention Center Documentation</strong>
+            <p>Read the comprehensive project report detailing the spatial circulation, functional arrangements, and structural configurations.</p>
+          </div>
+          <a href="3.pdf" target="_blank" class="btn-primary" id="btn-convention-pdf">Open Project PDF</a>
+        </div>
+      </div>
+
+      <!-- ─── Project 4: Hotel Design ─── -->
+      <div class="project-block" id="project-hotel">
+        <div class="project-header">
+          <div class="project-meta">
+            <span class="project-num">04</span>
+            <span class="project-cat">Hotel Design</span>
+          </div>
+          <h3 class="project-title">Luxury Business Hotel<br /><em>"World of Luxury"</em></h3>
+          <p class="project-desc">
+            In this design, space is not about fixed routes or destinations; it's about choices. Like in Merkato, once you enter, you're drawn in not because you're forced, but because you're curious. The architecture is meant to immerse you, offering multiple paths and experiences, making it hard to leave. You wander, not to get lost, but to enjoy discovering. Furniture and Landscape Design elements Detail.
+          </p>
+        </div>
+
+        <div class="hotel-grid">
+          <div class="hotel-sheet-wrap" id="hotel-sheet">
+            <img src="4/Biruk yared 03 Final.jpg" alt="Luxury Hotel Sheet" class="full-sheet-img" />
+            <div class="sheet-overlay"><span>Click to enlarge sheet</span></div>
+          </div>
+        </div>
+
+        <div class="hotel-pdf-cta">
+          <div class="pdf-icon">📄</div>
+          <div class="pdf-text">
+            <strong>Hotel Integrated Design Report</strong>
+            <p>View the complete project portfolio including landscape schemes, structural systems, and photorealistic morning/lobby perspectives.</p>
+          </div>
+          <a href="4/BIRUK YARED INTEGRATED DESIGN 2 FINAL PROJECT.pdf" target="_blank" class="btn-primary" id="btn-hotel-pdf">Open Project PDF</a>
+        </div>
+      </div>
+
+      <!-- ─── Project 5: High Rise Municipality Design ─── -->
+      <div class="project-block" id="project-municipality">
+        <div class="project-header">
+          <div class="project-meta">
+            <span class="project-num">05</span>
+            <span class="project-cat">High Rise Municipality Design</span>
+          </div>
+          <h3 class="project-title">High Rise Office Tower<br /><em>"The Civic Hierarchy"</em></h3>
+          <p class="project-desc">
+            This project presents the design of a high-rise governmental office building developed to accommodate administrative, leadership, and public functions within a unified architectural framework. The central concept is inspired by the idea of civic hierarchy in leadership. Positioned at the upper levels of the tower, leadership spaces are provided with expansive views of the city, symbolizing awareness, responsibility, transparency, and future-oriented decision-making. This concept is translated into the building's massing, circulation, and functional hierarchy, creating a direct relationship between governance and the urban environment.
+          </p>
+        </div>
+
+        <div class="hotel-pdf-cta">
+          <div class="pdf-icon">📄</div>
+          <div class="pdf-text">
+            <strong>Municipality High Rise Documentation</strong>
+            <p>Open the comprehensive 39-page architectural blueprint, structural calculations, case study analysis, and programmatic planning.</p>
+          </div>
+          <a href="5.pdf" target="_blank" class="btn-primary" id="btn-municipality-pdf">Open Project PDF</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════ SKILLS ═══════════════════════════════ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">EXPERTISE</div>
+      <h2 class="section-title">Skills &<br /><em>Software</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category" id="skill-design">
+          <h4 class="skill-cat-title">Design Skills</h4>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Architectural Design</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:95%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Concept Development</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Site Analysis</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Space Planning</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Facade Design</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-software">
+          <h4 class="skill-cat-title">Software & Graphics</h4>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">AutoCAD</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:93%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">3D Rendering</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:87%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SketchUp</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:82%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Graphic Design (Weyera, celebrational T-shirts)</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:95%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Presentation Boards / Photoshop</span>
+              <div class="skill-bar"><div class="skill-fill" style="--w:95%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-typology">
+          <h4 class="skill-cat-title">Project Typologies</h4>
+          <div class="typology-grid">
+            <div class="typo-card">🏢<span>Residential</span></div>
+            <div class="typo-card">🏫<span>Educational</span></div>
+            <div class="typo-card">🏛️<span>Convention</span></div>
+            <div class="typo-card">🏨<span>Hospitality</span></div>
+            <div class="typo-card">🏙️<span>Civic / High Rise</span></div>
+            <div class="typo-card">🎨<span>Graphics</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════ CONTACT ══════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">LET'S CONNECT</div>
+      <h2 class="section-title">Get in<br /><em>Touch</em></h2>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-intro">
+            Whether you're looking for a creative collaborator, a fresh architectural perspective, or simply want to discuss a project — feel free to reach out.
+          </p>
+          <div class="contact-links">
+            <a href="tel:+251930917018" class="contact-item" id="contact-phone-1">
+              <div class="contact-icon">📞</div>
+              <div>
+                <div class="contact-type">Primary Phone</div>
+                <div class="contact-val">+251 930 917 018</div>
+              </div>
+            </a>
+            <a href="tel:+251918912611" class="contact-item" id="contact-phone-2">
+              <div class="contact-icon">📞</div>
+              <div>
+                <div class="contact-type">Secondary Phone</div>
+                <div class="contact-val">+251 918 912 611</div>
+              </div>
+            </a>
+            <a href="mailto:birukyared637@gmail.com" class="contact-item" id="contact-email">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <div class="contact-type">Email Address</div>
+                <div class="contact-val">birukyared637@gmail.com</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form" id="contact-form" onsubmit="handleForm(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" id="btn-form-submit">Send Message</button>
+            <div class="form-success" id="form-success">✓ Message sent! I'll be in touch soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">BY<span class="dot">.</span></div>
+      <p class="footer-copy">© 2026 Biruk Yared — Architecture Student</p>
+      <p class="footer-tagline">Designing tomorrow's spaces, today.</p>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════ LIGHTBOX ═══════════════════════════════════ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+    <div class="lightbox-controls">
+      <button id="zoom-in" title="Zoom In">＋</button>
+      <button id="zoom-out" title="Zoom Out">－</button>
+      <button id="zoom-reset" title="Reset Zoom">⟲</button>
+    </div>
+    <div class="lightbox-img-wrap">
+      <img src="" alt="Enlarged view" id="lightbox-img" class="lightbox-img" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
