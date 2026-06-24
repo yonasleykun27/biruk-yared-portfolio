@@ -1,5 +1,7 @@
 # Exclude the Sample folder as requested
 Sample/
 
-# Exclude the 150MB PDF which exceeds GitHub's 100MB file limit
+# Exclude large PDFs now hosted on Google Drive to keep repository lightweight
+3.pdf
+5.pdf
 4/BIRUK YARED INTEGRATED DESIGN 2 FINAL PROJECT.pdf
